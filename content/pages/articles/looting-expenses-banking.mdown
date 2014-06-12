@@ -1,0 +1,21 @@
+Date: Dec 3 2011
+Categories: articles, academic
+
+# Idea: Looting Data vs. MPs' Expenses vs. Banking Crisis
+
+As with many UK residents, I feel the sentences handed down to people involved in the [UK riots](http://www.guardian.co.uk/uk/london-riots) (or incredibly tenuously involved) are hugely disproportionate to those given to [MPs](http://www.guardian.co.uk/politics/mps-expenses) and [bankers](http://www.guardian.co.uk/politics/reality-check-with-polly-curtis/2011/sep/12/reality-check-banking-bailout) responsible for stealing or defrauding much larger amounts.
+
+Been talking to [Alice](http://kaerast.info/) about setting up a small Ruby app similar to [Speed Of Animals](http://www.speedofanimals.com/) that would have three columns, comparing all of them to one metric (MPs, say).
+
+1.  Banking cost to economy — Arrests — Sentences given. Underneath a list of all related arrests.
+2.  MPs expenses cost to economy — Arrests — Sentences given. Underneath a list of all related arrests.
+3.  Rioting cost to economy — Arrests — Sentences given. Underneath a list of all related arrests.
+There's too many complications it feels like here - a lot of the data is semi-qualitative, or hard to decode in a meaningful way. Also, MPs can legitimately claim some expenses, and the half a million pounds payback (oh, if you defraud someone and pay it back you get off! [and by the way have your seat in the Lords back](http://en.wikipedia.org/wiki/Lord_Taylor_of_Warwick)) complicates matters.
+
+Nevertheless, the ideas there if anyone wants it. I have a domain name if anyone can make good use of it (looting.us). Relevant data sources:
+
+*   [Looting arrests](https://docs.google.com/a/alliscalm.net/spreadsheet/ccc?key=0AoEZjwuqFS2PdGs5TURMNVctT0NIRHBjWm5hSGtIWmc&amp;hl=en_GB#gid=2)
+*   [MPs expenses - MPs arrested](http://mps-expenses.guardian.co.uk/)
+*   [A possible layout framework](http://twitter.github.com/bootstrap/)
+*   [JS parsing library](https://github.com/rpflorence/snack)
+Thanks as always to[ Alice](http://kaerast.info/) for links and data sources!

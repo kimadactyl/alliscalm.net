@@ -1,0 +1,10 @@
+Date: May 1 2012
+Categories: articles, academic, sound
+
+# A listener-centred approach to soundscape evaluation
+
+...is the slightly beige title for my first conference paper, presented in Nantes, France at Acoustics 2012. It's the first thing I've produced since starting my PhD in 2007 so it's kind of a whistle stop tour of what I've done. I'm investigating how people listen, in short - what people hear, when and how, what the key factors are, and how people learn to listen.
+
+I'd like to think it's fairly readable, let me know what you think!
+
+PDF: [A listener-centred approach to soundscape evaluation](/attachments/nantes-final.pdf)

@@ -1,0 +1,6 @@
+academic
+sound
+web
+projects
+games
+archives

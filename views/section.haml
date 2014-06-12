@@ -1,0 +1,4 @@
+%section.articles
+  - posts = @page.articles.paginate(:page => params[:page], :per_page => 3)
+  = haml(:summaries, :layout => false, locals: { pages: posts })
+  .digg_pagination= will_paginate posts

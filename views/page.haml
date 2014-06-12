@@ -1,0 +1,15 @@
+%nav.breadcrumb
+  - display_breadcrumbs
+
+#content
+  %article(role="main")
+    ~ @page.to_html(self)
+
+    %section.pages
+      = article_summaries(@page.pages)
+
+    = haml :page_meta, :layout => false, :locals => { :page => @page }
+
+  = haml :comments, :layout => false
+
+= haml :sidebar, :layout => false
