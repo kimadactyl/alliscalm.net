@@ -1,6 +1,7 @@
 academic
+games
+personal
+projects
 sound
 web
-projects
-games
 archives
