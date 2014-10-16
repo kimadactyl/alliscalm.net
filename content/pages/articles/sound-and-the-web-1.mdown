@@ -25,6 +25,7 @@ They could be represented abstractly with things like:
 *   Opacity
 *   Pattern
 *   Small icons
+
 As a general move towards sounds being more usable/accessible on the web it'd be nice to do a small project seeing if we can creatively make, say, 100x100 or 200x200px thumbnails of audio files in an automated (or semi automated) way. Think facebook/flickr picture galleries, but with "previews" that tell you plenty about the sound.
 
 What would a red circle sound like? What would be the intuitive visualisation of an air horn? These questions would need to be answered in a small study, I think. If only there were an audio version of Draw Something (a subject for a future post), we'd have a wealth of data here. However I think it would be a fascinating graphic design challenge to see how much data you can cram into a thumbnail. Using my example, would I be able to pick out 10 loud sound recordings, or 5 short ones with lots of high frequency content at a quick glance? How about ones with several desirable variables?
