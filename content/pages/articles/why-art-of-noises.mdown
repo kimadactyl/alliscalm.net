@@ -1,14 +1,14 @@
 Date: 15 October 2014
-Categories: articles, sound, projects, games
-Summary: How did the most radical composition I've made to date end up being a board game? This article discusses _Art Of Noises_, an experimental sound-art game I made as part of my PhD in listening. It's designed to encourage different forms of collaboration, and question the power relationships implicit in live music. It covers recent musical movements, the autobiographical stimili for the game, and calls for a return to more aural sensibilities.<br/><br/><img src="/attachments/art-of-noises.jpg" alt="Photo of the componants for Art Of Noises">
+Categories: articles, sound, projects, games, art-of-noises
+Summary: How did the most radical composition I've made to date end up being a board game? This article discusses _Art Of Noises_, an experimental sound-art game I made as part of my PhD in listening. It's designed to encourage different forms of collaboration, and question the power relationships implicit in live music. It covers recent musical movements, the autobiographical stimili for the game, and calls for a return to more aural sensibilities.<br/><br/><img src="/attachments/art-of-noises/art-of-noises.jpg" alt="Photo of the componants for Art Of Noises">
 Facebook: /attachments/art-of-noises.jpg
 
 # <em>Art of Noises:</em> risk, live music, play and power
 
-_Art Of Noises_ is an experimental board game of avante-garde musical improvisation.  Five words are dealt out (like purple, Communism, Taj Mahal, scared, snooker), and players take it in turns to perform one of them using a variety of toy instruments. It's like _Pictionary_, but for sounds, but more abstract.
+_Art Of Noises_ is an experimental board game of avante-garde musical improvisation.  Five words are dealt out (like purple, Communism, Taj Mahal, scared, snooker), and players take it in turns to perform one of them using a variety of toy instruments. It's like _Pictionary_, but for sounds, but more abstract. More information is on the [project page](/art-of-noises).
 
 <figure>
-    <img src="/attachments/art-of-noises.jpg" alt="Photo of the componants for Art Of Noises">
+    <img src="/attachments/art-of-noises/art-of-noises.jpg" alt="Photo of the componants for Art Of Noises">
     <figcaption>Art of Noises components showing: cards to be performed; some sample instruments; and selection cards to let people pick which sound they think is being performed with famous composers on.</figcaption>
 </figure>
 
