@@ -48,5 +48,9 @@ module Nesta
     end
 
     # Add new routes here.
+
+    get '/elephants-in-the-dark' do
+      redirect '/articles/elephants-in-the-dark'
+    end
   end
 end

@@ -1,0 +1,34 @@
+-# Video IDS from YouTube
+- videoids = [ "Rx-ohyAE_Is","ByYF1d2DZ_s","3bjVIh60A_k","JmPn1rFtZVY","u3WWHE8mGls","CijTn3w6V1g","bVVw4jrIIro","nJ0YSmecfoQ","tl5d4NEuzwM","ZV8r8sE8op4","eMR_RdlWWXs","kcpnVmf8Ey0","pc3hXHMAFPs","E1nqkqHW1Hw","9u7NSjZwqoY","zHI45RfoUD0","KtJumjnpRxg","vR-R3kp9wD4","bvnolH53gJ4","elBjK2Zkgmw","EsO4feCQ1z8","9dFBxS1jqGk","-1k5Min0WqQ","ADdc0vPZd5M","v6hAE6mnso4","GCeg1UCg_d4","YOuAdIJtz78","x07qm8l0N50","DAW9W-EnjnU","nS_dmpWBe8U","k2sK6lb_nfw","KhOSdxmWilQ","x5j_7hnzj7M","R7B5JVGwiBo","faPfcBbh31Y","zyKnqrNnn2Q","p0SOs-_0wuE","PVw5bKB9h8c","cB-iF9rSZdo","SALjvq8GhtU","R0wBsMGyjB4","ZdLm-jkPZQ0","adjuFY9e3jQ","FgIWVC_y-lI","tUiwllBTCW8","LwQYCSuC9I0","ygiSZxMQLkg","qHEY1LczX9k","YAHglV7QfVY"]
+- order = ["Formby Beach", "Computer Lab", "Hoovering", "Kettle", "Mancunian Way", "Radio", "Etherow Weir"]
+
+-# Create arrays for us to pick our video from
+- audio = [0,1,2,3,4,5,6].shuffle
+- video = [0,1,2,3,4,5,6].shuffle
+- request = []
+- tracklist = []
+
+-# Pick one element from each array, with video being the modulo 7 row index
+- for i in 0..6
+  - tracklist[i] = "<strong>Video:</strong> #{order[video[i].to_i]}. <strong>Audio:</strong> #{order[audio[i]]}."
+  - request[i] = videoids[(video[i].to_i * 7) + (audio[i].to_i)]
+
+-# YouTube wants one video loaded initially, and the rest as an array
+- firstvideo = request[0]
+- playlist = request[1..6].join(",")
+
+-# And the magic
+<iframe id="ytplayer" type="text/html" width="720" height="405" src="https://www.youtube.com/embed/#{firstvideo}?playlist=#{playlist}&version=3&rel=0&showinfo=0" frameborder="0" allowfullscreen></iframe>
+
+%br
+%br
+%button#playlist-toggle Show Playlist
+%ol#playlist{:style => "display: none"}
+  - tracklist.each do |track|
+    %li= track
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+:javascript
+  $("#playlist-toggle").click(function() {
+    $( "#playlist" ).slideToggle( "slow", function() {
+    });
+  });
